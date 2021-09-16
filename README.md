@@ -8,7 +8,7 @@ Resources:
 - [oasisprotocol/oasis-core (source of test cases)](https://github.com/oasisprotocol/oasis-core/blob/01ce036d695a5b98075cc90f8063c93802b18f9c/go/common/cbor/cbor_test.go#L10-L24)
 
 
-#### Execution with `ugorji/go/codec@v1.1.7`
+#### Execution with `ugorji/go/codec@v1.2.6`
 
 ```
 gius@graywolf:~/ugorji-go-security-issue$ go test ./ -run TestOutOfMem1
